@@ -24,8 +24,7 @@ entfernt. Die automatische Android-Datensicherung (Cloud-Backup) ist für die Ap
 deaktiviert; Daten verlassen das Gerät nur über einen Export.
 
 Ein Export wird nur auf ausdrückliche Aktion des Nutzers erstellt. Die Datei
-wird in einem Ordner auf dem Gerät gespeichert oder über das Android-Teilen-Menü
-weitergegeben. Was danach mit der Datei geschieht, liegt beim Nutzer.
+wird im Ordner Dokumente/Kofferklar auf dem Gerät gespeichert oder über das Android-Teilen-Menü weitergegeben, zum Beispiel an einen Cloud-Speicher oder eine Nachricht. Die Sicherungsdatei ist nicht verschlüsselt. Was danach mit der Datei geschieht, liegt beim Nutzer.
 
 ### Diese Webseite
 
@@ -35,8 +34,7 @@ Seite nicht ab.
 
 ### Berechtigungen
 
-Speicherzugriff wird nur auf Android 10 oder älteren Versionen für den Export
-angefordert. Die Berechtigung für Benachrichtigungen (Android 13 und neuer) wird
+Speicherzugriff wird nur auf Android 10 oder älteren Versionen angefragt, wenn du eine Sicherung direkt auf dem Gerät speicherst. Die Berechtigung für Benachrichtigungen (Android 13 und neuer) wird
 nur abgefragt, wenn du eine Erinnerung aktivierst. Die Erinnerungen werden lokal
 auf dem Gerät geplant; es werden keine Daten übertragen.
 
@@ -62,8 +60,7 @@ All data (templates, trips, packing lists and settings) is stored only on the de
 deleting its app data removes that data. Android's automatic cloud backup is
 disabled for the app; data leaves the device only through an export.
 
-An export is created only at the user's explicit request. The file is saved in a
-folder on the device or shared through Android's share menu. What happens to the
+An export is created only at the user's explicit request. The file is saved in the Documents/Kofferklar folder on the device or shared through Android's share menu, for example to a cloud drive or a message. The backup file is not encrypted. What happens to the
 file afterwards is up to the user.
 
 ### This website
@@ -74,7 +71,6 @@ this page.
 
 ### Permissions
 
-Storage access is requested only on Android 10 or earlier for exporting. The
-notification permission (Android 13 and later) is requested only when you turn
+Storage access is requested only on Android 10 or earlier, when you save a backup directly on the device. The notification permission (Android 13 and later) is requested only when you turn
 on a reminder. Reminders are scheduled locally on the device; no data is
 transmitted.
