@@ -2,7 +2,7 @@
 
 ## Deutsch
 
-**Stand: 30. Oktober 2026**
+**Stand: 1. November 2026**
 
 ### Verantwortlicher
 
@@ -12,35 +12,90 @@ Wißfeldstr. 22
 53340 Meckenheim, Deutschland  
 info@neulandwerkstatt.de
 
-### Daten und Nutzung
+### Kurz gesagt
 
-Quiravel erhebt, überträgt und speichert keine personenbezogenen Daten auf
-Servern. Die App benötigt keine Internetverbindung und verwendet kein Tracking,
-keine Analyse, keine Werbung und kein Konto.
+Quiravel ist eine Offline-App. Sie erhebt, überträgt und speichert keine personenbezogenen Daten auf Servern des Entwicklers und verwendet kein Tracking, keine Analyse, keine Werbung und kein Konto. Die App fordert die Berechtigung „Internet“ nicht an und baut selbst keine Verbindung zu Servern auf.
 
-Alle Daten (Vorlagen, Reisen, Packlisten und Einstellungen) werden ausschließlich lokal auf dem Gerät gespeichert.
-Durch Deinstallation der App oder Löschen der App-Daten werden diese Daten
-entfernt. Die automatische Android-Datensicherung (Cloud-Backup) ist für die App
-deaktiviert; Daten verlassen das Gerät nur über einen Export.
+Ich als Entwickler erhalte keine Daten aus der App. Es gibt daher keine Verarbeitung personenbezogener Daten durch mich, solange du die App nutzt. Die folgenden Abschnitte erklären, was auf deinem Gerät geschieht und an welchen Stellen Dritte (Google, dein Teilen-Ziel) beteiligt sein können.
 
-Ein Export wird nur auf ausdrückliche Aktion des Nutzers erstellt. Die Datei
-wird im Ordner Dokumente/Quiravel auf dem Gerät gespeichert oder über das Android-Teilen-Menü weitergegeben, zum Beispiel an einen Cloud-Speicher oder eine Nachricht. Die Sicherungsdatei ist nicht verschlüsselt. Was danach mit der Datei geschieht, liegt beim Nutzer.
+### Was die App auf deinem Gerät speichert
 
-### Diese Webseite
+Alles, was du eingibst: Vorlagen, Module, Reisen und Packlisten, Reiseziele und Reisedaten, Namen von Mitreisenden und Haustieren, Notizen, Gewichte und Einstellungen. Diese Daten werden ausschließlich lokal auf dem Gerät gespeichert. Durch Deinstallation der App oder Löschen der App-Daten werden sie entfernt.
 
-Diese Datenschutzseite wird über GitHub Pages bereitgestellt. Beim Aufruf kann
-GitHub technische Daten wie die IP-Adresse verarbeiten. Die App selbst ruft die
-Seite nicht ab.
+Die automatische Android-Datensicherung (Cloud-Backup) ist für die App deaktiviert. Daten verlassen das Gerät nur durch eine Aktion von dir (siehe nächster Abschnitt).
+
+Bitte gib in Namen und Notizen nur Dinge ein, die du auf deinem Gerät speichern möchtest. Daten Dritter (zum Beispiel Namen von Mitreisenden) kannst du lokal frei verwalten; vor dem Weitergeben solltest du die Betroffenen fragen.
+
+### Wenn du Daten weitergibst
+
+Folgende Funktionen erzeugen nur auf deine ausdrückliche Aktion eine Datei oder einen Text, den du an eine andere App oder Person weitergeben kannst:
+
+- Sicherung (Export) und Wiederherstellung: Die Datei wird im Ordner Dokumente/Quiravel gespeichert oder über das Android-Teilen-Menü weitergegeben, zum Beispiel an einen Cloud-Speicher oder eine Nachricht. Die Sicherungsdatei ist nicht verschlüsselt.
+- Packliste als Text oder PDF teilen.
+- Eine Vorlage als Datei, als Code oder als QR-Code teilen. Große Vorlagen werden in mehrere QR-Codes aufgeteilt. Ein QR-Code enthält die Vorlage selbst (keinen Link und keinen Server).
+- Eine Vorlage importieren: aus einer Datei, durch Einfügen eines Codes oder durch Scannen eines QR-Codes. Importierte Daten werden vor dem Anlegen geprüft.
+
+Ab dem Teilen-Menü entscheidet das Ziel (z. B. Messenger, E-Mail oder Cloud-Speicher), wie die Daten verarbeitet werden. Dafür gelten die Datenschutzbestimmungen dieser Anbieter; was danach mit einer Datei geschieht, liegt bei dir.
+
+### QR-Code-Scanner
+
+Zum Importieren einer Vorlage kannst du einen QR-Code scannen. Dafür nutzt die App den Code-Scanner von Google (Google ML Kit über die Google Play-Dienste). Die App selbst fordert dafür keine Kamera-Berechtigung an und erhält vom Scanner nur den Text des QR-Codes. Kamerabilder werden von der App nicht gespeichert und nicht übertragen.
+
+Der Scanner wird von Google bereitgestellt. Die Google Play-Dienste können dabei das Scanner-Modul bei Bedarf herunterladen und technische Daten (zum Beispiel zur Leistung und Stabilität) an Google übermitteln. Dafür ist Google verantwortlich; es gelten die Datenschutzerklärung von Google und die Hinweise zu ML Kit. Ist der Scanner nicht verfügbar (zum Beispiel ohne Google Play-Dienste), kannst du einen Code stattdessen einfügen oder eine Datei importieren.
+
+### Bewertung der App
+
+Wenn die App dich um eine Bewertung bittet, nutzt sie die In-App-Bewertung von Google Play. Google entscheidet, ob der Dialog erscheint, und zeigt ihn selbst an. Die App erfährt weder, ob du bewertet hast, noch was. Die Verarbeitung erfolgt durch Google gemäß der Datenschutzerklärung von Google. Das Bewerten ist freiwillig.
+
+### Wetterdaten
+
+Die App enthält typische Klimawerte großer Städte und Länder als fest eingebaute Tabelle. Dafür wird kein Standort abgefragt und keine Verbindung ins Internet hergestellt. Quellen: WMO World Weather Information Service (worldweather.wmo.int) und GeoNames (geonames.org, Creative Commons Attribution 4.0). Das Reiseziel gibst du selbst ein.
+
+### Benachrichtigungen, Widget und Verknüpfungen
+
+- Erinnerungen werden lokal auf dem Gerät geplant und lokal angezeigt; es werden keine Daten übertragen. Damit sie nach einem Neustart weiter gelten, plant die App sie beim Start des Geräts neu.
+- Das Widget „Heute packen“ zeigt Reisenamen, Fortschritt und offene Einträge auf dem Startbildschirm. Wer dein Gerät sieht, sieht auch das Widget. Die Nutzung ist freiwillig.
+- Die Verknüpfung zu einer Reise (langer Druck auf das App-Symbol oder „Auf den Startbildschirm legen“) speichert den Namen der Reise im Launcher deines Geräts.
 
 ### Berechtigungen
 
-Speicherzugriff wird nur auf Android 10 oder älteren Versionen angefragt, wenn du eine Sicherung direkt auf dem Gerät speicherst. Die Berechtigung für Benachrichtigungen (Android 13 und neuer) wird
-nur abgefragt, wenn du eine Erinnerung aktivierst. Die Erinnerungen werden lokal
-auf dem Gerät geplant; es werden keine Daten übertragen.
+- Benachrichtigungen (Android 13 und neuer): nur, wenn du eine Erinnerung aktivierst.
+- Speicherzugriff: nur auf Android 10 oder älter, wenn du eine Sicherung direkt auf dem Gerät speicherst.
+- Neustart-Hinweis und Weckmodus: damit Erinnerungen nach einem Neustart wieder geplant werden und pünktlich erscheinen.
+- Netzwerkstatus: wird vom Scanner-Baustein ergänzt; die App verbindet sich damit nicht selbst mit dem Internet.
+- Keine Kamera-, Standort-, Kontakt- oder Mikrofon-Berechtigung.
+
+Die App greift nur auf Informationen auf deinem Gerät zu, die für die von dir genutzten Funktionen erforderlich sind (§ 25 Abs. 2 Nr. 2 TDDDG).
+
+### Speicherdauer und Löschung
+
+Die Daten bleiben auf deinem Gerät, bis du sie in der App löschst, die App-Daten löschst oder die App deinstallierst. Sicherungsdateien und geteilte Dateien liegen dort, wo du sie gespeichert oder hingeschickt hast, und kannst nur du löschen.
+
+### Kinder
+
+Die App richtet sich nicht an Kinder unter 13 Jahren und erhebt keine Daten von ihnen.
+
+### Diese Webseite
+
+Diese Datenschutzseite wird über GitHub Pages bereitgestellt (GitHub Inc., eine Tochter von Microsoft, USA). Beim Aufruf verarbeitet GitHub technische Daten wie die IP-Adresse und den Zeitpunkt des Zugriffs in Server-Protokollen, um die Seite auszuliefern und abzusichern. Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und stabilen Bereitstellung (Art. 6 Abs. 1 lit. f DSGVO). Die Übermittlung in die USA stützt sich auf die Standardvertragsklauseln und das EU-US Data Privacy Framework von GitHub; Einzelheiten stehen in der Datenschutzerklärung von GitHub.
+
+Die Seite selbst setzt keine Cookies und lädt keine externen Skripte, Schriften oder Tracker. Die App ruft diese Seite nicht automatisch ab.
+
+### Deine Rechte
+
+Da ich keine personenbezogenen Daten aus der App erhalte, kann ich dir dazu keine Auskunft geben und keine Daten löschen; du hast selbst die volle Kontrolle über alle Daten in der App. Soweit ich im Zusammenhang mit dieser Webseite oder einer Anfrage an info@neulandwerkstatt.de Daten von dir verarbeite, hast du die Rechte auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) sowie das Recht, eine erteilte Einwilligung jederzeit zu widerrufen. Schreib dazu an info@neulandwerkstatt.de.
+
+Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, zum Beispiel bei der Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (www.ldi.nrw.de).
+
+Es findet keine automatisierte Entscheidungsfindung einschließlich Profiling statt.
+
+### Änderungen
+
+Diese Erklärung wird angepasst, wenn die App neue Funktionen bekommt, bei denen Daten verarbeitet werden. Das Datum oben zeigt den aktuellen Stand.
 
 ## English
 
-**Last updated: October 30, 2026**
+**Last updated: November 1, 2026**
 
 ### Controller
 
@@ -50,27 +105,83 @@ Wißfeldstr. 22
 53340 Meckenheim, Germany  
 info@neulandwerkstatt.de
 
-### Data and app usage
+### In short
 
-Quiravel does not collect, transmit, or store personal data on servers. The app
-does not require an internet connection and uses no tracking, analytics,
-advertising, or account.
+Quiravel is an offline app. It does not collect, transmit or store personal data on the developer’s servers and uses no tracking, analytics, advertising or account. The app does not request the “Internet” permission and does not connect to any server itself.
 
-All data (templates, trips, packing lists and settings) is stored only on the device. Uninstalling the app or
-deleting its app data removes that data. Android's automatic cloud backup is
-disabled for the app; data leaves the device only through an export.
+As the developer I receive no data from the app, so I do not process personal data while you use it. The sections below explain what happens on your device and where third parties (Google, the target you share to) may be involved.
 
-An export is created only at the user's explicit request. The file is saved in the Documents/Quiravel folder on the device or shared through Android's share menu, for example to a cloud drive or a message. The backup file is not encrypted. What happens to the
-file afterwards is up to the user.
+### What the app stores on your device
 
-### This website
+Everything you enter: templates, modules, trips and packing lists, destinations and travel dates, names of fellow travellers and pets, notes, weights and settings. This data is stored only on the device. Uninstalling the app or deleting its app data removes it.
 
-This privacy page is hosted on GitHub Pages. When you open it, GitHub may
-process technical data such as your IP address. The app itself does not load
-this page.
+Android’s automatic cloud backup is disabled for the app. Data leaves the device only through an action of yours (see the next section).
+
+Please enter in names and notes only what you want to keep on your device. You can manage other people’s data (for example names of fellow travellers) freely on your device; ask them before you pass it on.
+
+### When you share data
+
+The following functions create a file or text that you can pass on to another app or person only when you explicitly ask for it:
+
+- Backup (export) and restore: the file is saved in the Documents/Quiravel folder or shared through Android’s share menu, for example to a cloud drive or a message. The backup file is not encrypted.
+- Sharing a packing list as text or PDF.
+- Sharing a template as a file, a code or a QR code. Large templates are split into several QR codes. A QR code contains the template itself (no link and no server).
+- Importing a template: from a file, by pasting a code or by scanning a QR code. Imported data is checked before anything is created.
+
+From the share menu on, the target (for example a messenger, email or a cloud drive) decides how the data is processed; the privacy terms of that provider apply, and what happens to a file afterwards is up to you.
+
+### QR code scanner
+
+To import a template you can scan a QR code. The app uses Google’s code scanner (Google ML Kit through Google Play services). The app itself requests no camera permission for this and only receives the text of the QR code from the scanner. The app neither stores nor transmits camera images.
+
+The scanner is provided by Google. Google Play services may download the scanner module when needed and may send technical data (for example about performance and stability) to Google. Google is responsible for this; Google’s privacy policy and the ML Kit notices apply. If the scanner is not available (for example without Google Play services), you can paste a code or import a file instead.
+
+### Rating the app
+
+When the app asks you for a rating, it uses Google Play’s in-app review. Google decides whether the dialog appears and shows it itself. The app does not learn whether you rated or what you wrote. Google processes the data under Google’s privacy policy. Rating is voluntary.
+
+### Weather data
+
+The app contains typical climate values of large cities and countries as a built-in table. No location is requested and no internet connection is made. Sources: WMO World Weather Information Service (worldweather.wmo.int) and GeoNames (geonames.org, Creative Commons Attribution 4.0). You enter the destination yourself.
+
+### Notifications, widget and shortcuts
+
+- Reminders are scheduled and shown locally on the device; no data is transmitted. So that they still apply after a restart, the app schedules them again when the device starts.
+- The “Pack today” widget shows trip names, progress and open items on your home screen. Anyone who sees your device sees the widget. Using it is optional.
+- The shortcut to a trip (long press on the app icon or “Add to home screen”) stores the name of the trip in your device’s launcher.
 
 ### Permissions
 
-Storage access is requested only on Android 10 or earlier, when you save a backup directly on the device. The notification permission (Android 13 and later) is requested only when you turn
-on a reminder. Reminders are scheduled locally on the device; no data is
-transmitted.
+- Notifications (Android 13 and later): only when you turn on a reminder.
+- Storage access: only on Android 10 or earlier, when you save a backup directly on the device.
+- Boot notice and wake lock: so that reminders are scheduled again after a restart and appear on time.
+- Network state: added by the scanner component; the app does not use it to connect to the internet itself.
+- No camera, location, contacts or microphone permission.
+
+The app only accesses information on your device that is needed for the functions you use (section 25(2) no. 2 TDDDG).
+
+### Storage period and deletion
+
+The data stays on your device until you delete it in the app, delete the app data or uninstall the app. Backup files and shared files are where you saved or sent them, and only you can delete them.
+
+### Children
+
+The app is not directed at children under 13 and does not collect data from them.
+
+### This website
+
+This privacy page is hosted on GitHub Pages (GitHub Inc., a Microsoft subsidiary, USA). When you open it, GitHub processes technical data such as your IP address and the time of access in server logs in order to deliver and secure the page. The legal basis is our legitimate interest in a secure and stable delivery (Art. 6(1)(f) GDPR). The transfer to the USA relies on the standard contractual clauses and GitHub’s participation in the EU-US Data Privacy Framework; details are in GitHub’s privacy statement.
+
+The page itself sets no cookies and loads no external scripts, fonts or trackers. The app does not fetch this page automatically.
+
+### Your rights
+
+Because I receive no personal data from the app, I cannot give you information about it or delete it; you have full control over all data in the app. Where I process data about you in connection with this website or a message to info@neulandwerkstatt.de, you have the rights of access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and objection (Art. 21), and the right to withdraw any consent at any time. Write to info@neulandwerkstatt.de.
+
+You also have the right to lodge a complaint with a data protection supervisory authority, for example the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia (www.ldi.nrw.de).
+
+There is no automated decision-making, including profiling.
+
+### Changes
+
+This statement is updated when the app gets new functions that process data. The date above shows the current version.
