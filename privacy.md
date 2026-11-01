@@ -14,7 +14,7 @@ info@neulandwerkstatt.de
 
 ### Daten und Nutzung
 
-Kofferklar erhebt, überträgt und speichert keine personenbezogenen Daten auf
+Quiravel erhebt, überträgt und speichert keine personenbezogenen Daten auf
 Servern. Die App benötigt keine Internetverbindung und verwendet kein Tracking,
 keine Analyse, keine Werbung und kein Konto.
 
@@ -24,7 +24,7 @@ entfernt. Die automatische Android-Datensicherung (Cloud-Backup) ist für die Ap
 deaktiviert; Daten verlassen das Gerät nur über einen Export.
 
 Ein Export wird nur auf ausdrückliche Aktion des Nutzers erstellt. Die Datei
-wird im Ordner Dokumente/Packliste auf dem Gerät gespeichert oder über das Android-Teilen-Menü weitergegeben, zum Beispiel an einen Cloud-Speicher oder eine Nachricht. Die Sicherungsdatei ist nicht verschlüsselt. Was danach mit der Datei geschieht, liegt beim Nutzer.
+wird im Ordner Dokumente/Quiravel auf dem Gerät gespeichert oder über das Android-Teilen-Menü weitergegeben, zum Beispiel an einen Cloud-Speicher oder eine Nachricht. Die Sicherungsdatei ist nicht verschlüsselt. Was danach mit der Datei geschieht, liegt beim Nutzer.
 
 ### Diese Webseite
 
@@ -52,7 +52,7 @@ info@neulandwerkstatt.de
 
 ### Data and app usage
 
-Kofferklar does not collect, transmit, or store personal data on servers. The app
+Quiravel does not collect, transmit, or store personal data on servers. The app
 does not require an internet connection and uses no tracking, analytics,
 advertising, or account.
 
@@ -60,7 +60,7 @@ All data (templates, trips, packing lists and settings) is stored only on the de
 deleting its app data removes that data. Android's automatic cloud backup is
 disabled for the app; data leaves the device only through an export.
 
-An export is created only at the user's explicit request. The file is saved in the Documents/Packliste folder on the device or shared through Android's share menu, for example to a cloud drive or a message. The backup file is not encrypted. What happens to the
+An export is created only at the user's explicit request. The file is saved in the Documents/Quiravel folder on the device or shared through Android's share menu, for example to a cloud drive or a message. The backup file is not encrypted. What happens to the
 file afterwards is up to the user.
 
 ### This website
