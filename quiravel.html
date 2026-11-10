@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Packliste fürs Handy: Koffer packen ohne Vergessen – Quiravel</title>
+    <meta name="description" content="Nichts mehr vergessen: Quiravel ist die Packlisten-App für Urlaub, Handgepäck, Camping und Geschäftsreise. Mit Vorlagen, Wetter ohne Internet und Erinnerungen vor der Abreise. Offline, ohne Konto." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <link rel="canonical" href="https://neulandwerkstatt-docs.github.io/packliste-android-docs/quiravel.html" />
+    <link rel="icon" type="image/png" href="assets/quiravel-icon.png" />
+    <meta name="theme-color" content="#1f2937" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="neulandwerkstatt" />
+    <meta property="og:title" content="Packliste fürs Handy: Koffer packen ohne Vergessen – Quiravel" />
+    <meta property="og:description" content="Vorlagen, Wetter ohne Internet und Erinnerungen vor der Abreise. Offline, ohne Konto, ohne Werbung." />
+    <meta property="og:url" content="https://neulandwerkstatt-docs.github.io/packliste-android-docs/quiravel.html" />
+    <meta property="og:image" content="https://neulandwerkstatt-docs.github.io/packliste-android-docs/assets/quiravel-icon.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Quiravel",
+          "operatingSystem": "Android",
+          "applicationCategory": "TravelApplication",
+          "description": "Packlisten-App für Urlaub, Handgepäck, Camping und Geschäftsreise mit Vorlagen, Wetter ohne Internet und Erinnerungen vor der Abreise. Offline, ohne Konto, ohne Werbung.",
+          "inLanguage": ["de", "en", "fr"],
+          "isAccessibleForFree": true,
+          "url": "https://neulandwerkstatt.de/quiravel/",
+          "installUrl": "https://play.google.com/store/apps/details?id=de.neulandwerkstatt.packliste",
+          "image": "https://neulandwerkstatt-docs.github.io/packliste-android-docs/assets/quiravel-icon.png",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+          "author": { "@type": "Organization", "name": "neulandwerkstatt", "url": "https://neulandwerkstatt.de/" }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Wie erstelle ich eine Packliste für den Urlaub auf dem Handy?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Wähle in Quiravel eine Vorlage wie Standard-Reise, Wochenende oder Geschäftsreise, ergänze Module wie Strand oder Flug und hake die Einträge beim Packen ab. Jede Reise hat ihre eigene Liste mit Fortschritt." }
+            },
+            {
+              "@type": "Question",
+              "name": "Funktioniert die Packlisten-App ohne Internet?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Ja. Quiravel braucht keine Internetverbindung. Auch die Wetterangaben sind fest eingebaut und stammen aus Klimamittelwerten. Sie sind keine Vorhersage." }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich das Gewicht meines Handgepäcks im Blick behalten?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Ja. Du hinterlegst Gewichte pro Eintrag und ein Limit, zum Beispiel 8 kg. Quiravel rechnet die Summe und warnt bei Überschreitung. Die Gewichte sind Schätzwerte." }
+            },
+            {
+              "@type": "Question",
+              "name": "Kann ich für Familie und Haustiere getrennte Listen führen?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Ja. Jede Person und jedes Tier bekommt eine eigene Liste mit eigenem Abhak-Stand. Gemeinsame Dinge zählen einmal für alle." }
+            },
+            {
+              "@type": "Question",
+              "name": "Erinnert mich die App an Aufgaben vor der Abreise?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Ja. Aufgaben wie Müll rausbringen oder online einchecken haben eine Frist vor der Abreise. Auf Wunsch erinnert dich Quiravel per Benachrichtigung." }
+            },
+            {
+              "@type": "Question",
+              "name": "Was kostet Quiravel und was passiert mit meinen Daten?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Quiravel ist kostenlos und ohne Werbung. Es braucht kein Konto, die Daten bleiben auf deinem Gerät, und Sicherung, Wiederherstellung und Dunkelmodus sind immer frei. Für erweiterte Planungsfunktionen ist eine Pro-Version vorgesehen." }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "neulandwerkstatt", "item": "https://neulandwerkstatt.de/" },
+            { "@type": "ListItem", "position": 2, "name": "Quiravel", "item": "https://neulandwerkstatt.de/quiravel/" },
+            { "@type": "ListItem", "position": 3, "name": "Packliste fürs Handy" }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+      :root {
+        --bg: #f4f4f5;
+        --card: #ffffff;
+        --ink: #1f2937;
+        --muted: #4b5563;
+        --slate: #334155;
+        --lime: #84cc16;
+        --lime-ink: #3f6212;
+        --line: #d4d4d8;
+        --link: #3f6212;
+        --max: 62rem;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #111827;
+          --card: #1f2937;
+          --ink: #f3f4f6;
+          --muted: #aab3c0;
+          --slate: #cbd5e1;
+          --lime: #a3e635;
+          --lime-ink: #a3e635;
+          --line: #374151;
+          --link: #bef264;
+        }
+      }
+      .logo-dark { display: none; }
+      @media (prefers-color-scheme: dark) {
+        .logo-light { display: none; }
+        .logo-dark { display: block; }
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        font: 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      a { color: var(--link); text-underline-offset: 0.18em; }
+      a:focus-visible, .btn:focus-visible, summary:focus-visible { outline: 3px solid var(--lime); outline-offset: 3px; }
+      .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+      h1, h2, h3 { line-height: 1.15; letter-spacing: -0.02em; }
+      h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin: 0 0 1rem; }
+      h2 { font-size: clamp(1.5rem, 4vw, 2.1rem); margin: 0 0 1rem; }
+      h3 { font-size: 1.1rem; margin: 0 0 0.35rem; }
+      p { margin: 0 0 1rem; }
+
+      .topbar { padding: 0.9rem 0; font-size: 0.9rem; }
+      .topbar nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; }
+      .topbar a { color: var(--muted); }
+
+      /* Hero: boarding pass */
+      .hero { padding: 1.5rem 0 3rem; }
+      .pass {
+        display: grid;
+        background: var(--card);
+        border: 2px solid var(--ink);
+        border-radius: 1.2rem;
+        overflow: hidden;
+        box-shadow: 8px 8px 0 var(--lime);
+      }
+      .pass-main { padding: clamp(1.25rem, 4vw, 2.5rem); }
+      .pass-stub {
+        background: var(--ink);
+        color: var(--bg);
+        padding: 1.25rem;
+        border-top: 2px dashed var(--bg);
+        font: 0.8rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+        display: grid;
+        gap: 0.8rem;
+        align-content: center;
+      }
+      .pass-stub b { display: block; font-size: 1.05rem; color: var(--lime); }
+      .pass-stub img { width: 4.5rem; height: 4.5rem; border-radius: 1rem; }
+      @media (min-width: 52rem) {
+        .pass { grid-template-columns: 1fr 14rem; }
+        .pass-stub { border-top: 0; border-left: 2px dashed var(--bg); }
+      }
+      .wordmark { height: 2.2rem; width: auto; margin-bottom: 1.2rem; }
+      .lead { font-size: 1.2rem; color: var(--muted); max-width: 38rem; }
+      .cta { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.5rem; }
+      .btn {
+        display: inline-block;
+        padding: 0.8rem 1.4rem;
+        border-radius: 0.6rem;
+        font-weight: 700;
+        text-decoration: none;
+        border: 2px solid var(--ink);
+      }
+      .btn.primary { background: var(--lime); color: #1f2937; }
+      .btn.ghost { color: var(--ink); }
+      .chips { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.85rem; }
+      .chips li { background: var(--bg); border: 1px solid var(--line); border-radius: 2rem; padding: 0.2rem 0.8rem; color: var(--muted); }
+
+      section { padding: 2.75rem 0; border-top: 1px solid var(--line); }
+
+      /* Search-question tags */
+      .tags { list-style: none; padding: 0; margin: 1rem 0 1.5rem; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+      .tags a {
+        display: inline-block; text-decoration: none; color: var(--ink);
+        background: var(--card); border: 1.5px solid var(--ink); border-radius: 0.5rem;
+        padding: 0.4rem 0.9rem; font-weight: 600; font-size: 0.97rem;
+      }
+      .tags a:hover { background: var(--lime); color: #1f2937; }
+
+      .two { display: grid; gap: 2rem; align-items: center; }
+      @media (min-width: 52rem) { .two { grid-template-columns: 1fr 1fr; } }
+
+      /* Checklist demo */
+      .check { background: var(--card); border: 2px solid var(--ink); border-radius: 1rem; padding: 1.2rem 1.4rem; font-size: 1rem; }
+      .check h3 { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.6rem; }
+      .check h3 span { font-size: 0.85rem; font-weight: 600; color: var(--lime-ink); }
+      .check ul { list-style: none; padding: 0; margin: 0; }
+      .check li { padding: 0.35rem 0 0.35rem 2rem; position: relative; border-bottom: 1px dotted var(--line); }
+      .check li::before { content: ""; position: absolute; left: 0; top: 0.5rem; width: 1.2rem; height: 1.2rem; border: 2px solid var(--ink); border-radius: 0.3rem; }
+      .check li.done::before { background: var(--lime); }
+      .check li.done::after { content: "✓"; position: absolute; left: 0.22rem; top: 0.28rem; font-weight: 800; color: #1f2937; font-size: 0.95rem; }
+      .check li.done { color: var(--muted); }
+      .check ul ul { margin: 0.35rem 0 0; }
+      .check ul ul li { border: 0; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+
+      .steps { counter-reset: s; list-style: none; padding: 0; display: grid; gap: 1rem; }
+      .steps li { counter-increment: s; padding-left: 3.2rem; position: relative; }
+      .steps li::before {
+        content: counter(s); position: absolute; left: 0; top: 0; width: 2.3rem; height: 2.3rem;
+        background: var(--lime); color: #1f2937; font-weight: 800; border-radius: 50%;
+        display: grid; place-items: center; border: 2px solid var(--ink);
+      }
+      .steps p { margin: 0; color: var(--muted); }
+
+      .phones { display: flex; gap: 1rem; overflow-x: auto; padding: 0.5rem 0 1rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+      .phones figure { margin: 0; flex: 0 0 min(15rem, 70vw); scroll-snap-align: start; }
+      .phones img { width: 100%; height: auto; border-radius: 1.2rem; border: 2px solid var(--ink); background: var(--card); display: block; }
+      .phones figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem; }
+
+      .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+      .card { background: var(--card); border: 2px solid var(--ink); border-radius: 0.9rem; padding: 1.1rem 1.2rem; }
+      .card p { margin: 0; color: var(--muted); font-size: 0.98rem; }
+      .card a.more { display: inline-block; margin-top: 0.6rem; font-weight: 700; }
+
+      details { background: var(--card); border: 1px solid var(--line); border-radius: 0.6rem; padding: 0.8rem 1rem; margin-bottom: 0.6rem; }
+      summary { cursor: pointer; font-weight: 700; }
+      details p { margin: 0.6rem 0 0; }
+      .fine { font-size: 0.88rem; color: var(--muted); }
+      footer { padding: 2rem 0 3rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--muted); }
+      footer a { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <nav aria-label="Navigation">
+          <a href="https://neulandwerkstatt.de/">neulandwerkstatt</a>
+          <a href="https://neulandwerkstatt.de/quiravel/">Quiravel – Packliste und Reiseplaner</a>
+          <a href="privacy.html">Datenschutz</a>
+          <a href="impressum.html">Impressum</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrap hero">
+        <div class="pass">
+          <div class="pass-main">
+            <img class="wordmark logo-light" src="assets/quiravel-schriftzug.svg" alt="Quiravel" width="2225" height="599" />
+            <img class="wordmark logo-dark" src="assets/quiravel-schriftzug-weiss.svg" alt="Quiravel" width="2225" height="599" />
+            <h1>Koffer packen, ohne dass dir am Flughafen etwas einfällt</h1>
+            <p class="lead">
+              Socken, Ladekabel, Pass – und hast du die Blumen gegossen? Die
+              <a href="https://neulandwerkstatt.de/quiravel/">Packlisten-App Quiravel</a>
+              hält alles fest, was mit muss und was vor der Abreise noch zu tun ist.
+              Auf dem Handy, ohne Internet.
+            </p>
+            <div class="cta">
+              <a class="btn primary" href="https://play.google.com/store/apps/details?id=de.neulandwerkstatt.packliste&amp;hl=de&amp;referrer=utm_source%3Dgithub-pages%26utm_medium%3Dlanding%26utm_campaign%3Dquiravel" rel="noopener">Kostenlos bei Google Play</a>
+              <a class="btn ghost" href="https://neulandwerkstatt.de/quiravel/">Alle Funktionen ansehen</a>
+            </div>
+            <ul class="chips" aria-label="Eigenschaften">
+              <li>Offline</li>
+              <li>Ohne Konto</li>
+              <li>Ohne Werbung</li>
+              <li>Hell &amp; Dunkel</li>
+              <li>Deutsch, Englisch, Französisch</li>
+            </ul>
+          </div>
+          <div class="pass-stub" aria-hidden="true">
+            <img src="assets/quiravel-icon.png" alt="" width="72" height="72" />
+            <div>PASSENGER<b>DU</b></div>
+            <div>GEPÄCK<b>NICHTS VERGESSEN</b></div>
+            <div>MODUS<b>OFFLINE</b></div>
+          </div>
+        </div>
+      </div>
+
+      <section aria-labelledby="listen">
+        <div class="wrap">
+          <h2 id="listen">Welche Packliste brauchst du?</h2>
+          <p>
+            Jede Reise ist anders. Wähle den Anlass und sieh, wie Quiravel dafür
+            packt:
+          </p>
+          <ul class="tags">
+            <li><a href="https://neulandwerkstatt.de/quiravel/familienurlaub/">Packliste Familienurlaub</a></li>
+            <li><a href="https://neulandwerkstatt.de/quiravel/handgepaeck/">Packliste Handgepäck</a></li>
+            <li><a href="https://neulandwerkstatt.de/quiravel/camping-wandern/">Packliste Camping und Wandern</a></li>
+            <li><a href="https://neulandwerkstatt.de/quiravel/geschaeftsreise/">Packliste Geschäftsreise</a></li>
+            <li><a href="https://neulandwerkstatt.de/quiravel/wetter/">Was einpacken bei welchem Wetter?</a></li>
+            <li><a href="https://neulandwerkstatt.de/quiravel/vor-der-abreise/">Checkliste vor der Abreise</a></li>
+          </ul>
+          <p>
+            Du musst nicht bei null anfangen: Die Vorlagen und Module bringen die
+            üblichen Einträge mit. Du übernimmst nur, was du brauchst.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="packen">
+        <div class="wrap two">
+          <div>
+            <h2 id="packen">Packen wie im echten Koffer: Tasche in Tasche</h2>
+            <p>
+              Die Waschtasche ist erst abgehakt, wenn alles drin ist. Quiravel
+              verschachtelt Einträge, jede Zeile hat ihren eigenen Haken und zählt
+              für den Fortschritt. So siehst du auf einen Blick, was noch fehlt.
+            </p>
+            <ol class="steps">
+              <li><h3>Vorlage wählen</h3><p>Standard-Reise, Wochenende oder Geschäftsreise, oder deine eigene Liste.</p></li>
+              <li><h3>Module hinzufügen</h3><p>Zum Beispiel Strand oder Flug. Aus jedem Modul nimmst du nur die Einträge, die du brauchst.</p></li>
+              <li><h3>Beim Packen abhaken</h3><p>Der Fortschritt zeigt, wie weit du bist.</p></li>
+            </ol>
+          </div>
+          <div class="check" role="img" aria-label="Beispiel einer Packliste: Waschtasche mit Zahnbürste und Zahnpasta abgehakt, Duschgel offen">
+            <h3>Waschtasche <span>2 von 3</span></h3>
+            <ul>
+              <li class="done">Zahnbürste</li>
+              <li class="done">Zahnpasta</li>
+              <li>Duschgel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="sieht">
+        <div class="wrap">
+          <h2 id="sieht">So sieht Quiravel aus</h2>
+          <div class="phones">
+            <figure><img src="assets/de-reisen.jpg" alt="Quiravel: Reisen-Übersicht mit Fortschritt und Tagen bis zur Abreise" width="540" height="1055" loading="lazy" /><figcaption>Alle Reisen mit Fortschritt</figcaption></figure>
+            <figure><img src="assets/de-packliste.jpg" alt="Quiravel: Waschtasche mit abhakbarem Inhalt" width="540" height="1055" loading="lazy" /><figcaption>Waschtasche mit ihrem Inhalt</figcaption></figure>
+            <figure><img src="assets/de-kategorien.jpg" alt="Quiravel: Packliste mit Kategorien und Fortschritt je Kategorie" width="540" height="1055" loading="lazy" /><figcaption>Fortschritt je Kategorie</figcaption></figure>
+            <figure><img src="assets/de-vorlagen.jpg" alt="Quiravel: Vorlagenliste mit Geschäftsreise, Standard-Reise, Wochenende und den Modulen Flug und Strand" width="540" height="1055" loading="lazy" /><figcaption>Vorlagen und Module</figcaption></figure>
+            <figure><img src="assets/de-module.jpg" alt="Quiravel: Modul Flug mit Dokumenten, Elektronik und Sonstigem" width="540" height="1055" loading="lazy" /><figcaption>Modul „Flug“</figcaption></figure>
+            <figure><img src="assets/de-rueckblick.jpg" alt="Quiravel: Rückblick nach der Reise" width="540" height="1055" loading="lazy" /><figcaption>Rückblick nach der Reise</figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="hilft">
+        <div class="wrap">
+          <h2 id="hilft">Woran Reisende sonst scheitern – und was Quiravel dagegen tut</h2>
+          <div class="grid">
+            <div class="card">
+              <h3>Etwas Wichtiges vergessen</h3>
+              <p>Ladekabel, Reisepass, Medikamente: Die Vorlagen erinnern an die Klassiker.</p>
+            </div>
+            <div class="card">
+              <h3>Falsche Kleidung</h3>
+              <p>Typische Temperaturen und Regentage fürs Reiseziel, ohne Internet. Regenjacke oder Badebekleidung erscheinen nur, wenn sie zum Wetter passen.
+                Mehr dazu: <a href="https://neulandwerkstatt.de/quiravel/wetter/">Packliste nach Wetter</a>.</p>
+            </div>
+            <div class="card">
+              <h3>Zu schwer fürs Handgepäck</h3>
+              <p>Gewichte pro Eintrag und ein Limit, etwa 8 kg. Die App warnt bei Überschreitung.</p>
+              <a class="more" href="https://neulandwerkstatt.de/quiravel/handgepaeck/">Handgepäck packen</a>
+            </div>
+            <div class="card">
+              <h3>Jeder packt für sich</h3>
+              <p>Personen und Haustiere haben eigene Listen mit eigenem Abhak-Stand. Gemeinsames zählt einmal.</p>
+              <a class="more" href="https://neulandwerkstatt.de/quiravel/familienurlaub/">Familienurlaub planen</a>
+            </div>
+            <div class="card">
+              <h3>Zuhause vergessen</h3>
+              <p>Müll rausbringen, online einchecken: Aufgaben mit Frist, auf Wunsch mit Benachrichtigung.</p>
+              <a class="more" href="https://neulandwerkstatt.de/quiravel/vor-der-abreise/">Aufgaben vor der Abreise</a>
+            </div>
+            <div class="card">
+              <h3>Jedes Mal von vorn</h3>
+              <p>Alte Reisen lassen sich als neue verwenden. Im Rückblick markierst du, was du nicht gebraucht hast, und übernimmst das in deine Vorlagen.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="privat">
+        <div class="wrap">
+          <h2 id="privat">Deine Reisepläne bleiben bei dir</h2>
+          <p>
+            Quiravel braucht keine Internetverbindung, kein Konto und zeigt keine
+            Werbung. Die Daten bleiben auf deinem Gerät. Weil es keine Cloud gibt,
+            sicherst du selbst: Du speicherst alle Daten als Datei und stellst sie
+            bei Bedarf wieder her. Packlisten verschickst du als Text oder PDF.
+          </p>
+          <p>
+            Details stehen in der <a href="privacy.html">Datenschutzerklärung von Quiravel</a>.
+          </p>
+          <p class="fine">
+            Die Wetterangaben sind Durchschnittswerte vieler Jahre und keine Vorhersage.
+          </p>
+        </div>
+      </section>
+
+      <section aria-labelledby="faq">
+        <div class="wrap">
+          <h2 id="faq">Häufige Fragen</h2>
+          <details>
+            <summary>Wie erstelle ich eine Packliste für den Urlaub auf dem Handy?</summary>
+            <p>Wähle in Quiravel eine Vorlage wie Standard-Reise, Wochenende oder Geschäftsreise, ergänze Module wie Strand oder Flug und hake die Einträge beim Packen ab. Jede Reise hat ihre eigene Liste mit Fortschritt.</p>
+          </details>
+          <details>
+            <summary>Funktioniert die Packlisten-App ohne Internet?</summary>
+            <p>Ja. Quiravel braucht keine Internetverbindung. Auch die Wetterangaben sind fest eingebaut und stammen aus Klimamittelwerten. Sie sind keine Vorhersage.</p>
+          </details>
+          <details>
+            <summary>Kann ich das Gewicht meines Handgepäcks im Blick behalten?</summary>
+            <p>Ja. Du hinterlegst Gewichte pro Eintrag und ein Limit, zum Beispiel 8 kg. Quiravel rechnet die Summe und warnt bei Überschreitung. Die Gewichte sind Schätzwerte.</p>
+          </details>
+          <details>
+            <summary>Kann ich für Familie und Haustiere getrennte Listen führen?</summary>
+            <p>Ja. Jede Person und jedes Tier bekommt eine eigene Liste mit eigenem Abhak-Stand. Gemeinsame Dinge zählen einmal für alle.</p>
+          </details>
+          <details>
+            <summary>Erinnert mich die App an Aufgaben vor der Abreise?</summary>
+            <p>Ja. Aufgaben wie Müll rausbringen oder online einchecken haben eine Frist vor der Abreise. Auf Wunsch erinnert dich Quiravel per Benachrichtigung.</p>
+          </details>
+          <details>
+            <summary>Was kostet Quiravel und was passiert mit meinen Daten?</summary>
+            <p>Quiravel ist kostenlos und ohne Werbung. Es braucht kein Konto, die Daten bleiben auf deinem Gerät, und Sicherung, Wiederherstellung und Dunkelmodus sind immer frei. Für erweiterte Planungsfunktionen ist eine Pro-Version vorgesehen.</p>
+          </details>
+          <div class="cta">
+            <a class="btn primary" href="https://play.google.com/store/apps/details?id=de.neulandwerkstatt.packliste&amp;hl=de&amp;referrer=utm_source%3Dgithub-pages%26utm_medium%3Dlanding%26utm_campaign%3Dquiravel" rel="noopener">Quiravel bei Google Play</a>
+            <a class="btn ghost" href="https://neulandwerkstatt.de/quiravel/">Mehr auf neulandwerkstatt.de</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <p>
+          Eine App von <a href="https://neulandwerkstatt.de/">neulandwerkstatt</a> ·
+          <a href="https://neulandwerkstatt.de/quiravel/">Quiravel</a> ·
+          <a href="impressum.html">Impressum</a> ·
+          <a href="privacy.html">Datenschutz</a>
+        </p>
+        <p>Google Play ist eine Marke von Google LLC.</p>
+      </div>
+    </footer>
+  </body>
+</html>
