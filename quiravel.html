@@ -214,8 +214,9 @@
       }
       .steps p { margin: 0; color: var(--muted); }
 
-      .phones { display: flex; gap: 1rem; overflow-x: auto; padding: 0.5rem 0 1rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
-      .phones figure { margin: 0; flex: 0 0 min(15rem, 70vw); scroll-snap-align: start; }
+      .phones { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); padding: 0.5rem 0 1rem; }
+      .phones figure { margin: 0; min-width: 0; }
+      @media (min-width: 40rem) { .phones { grid-template-columns: repeat(3, 1fr); } }
       .phones img { width: 100%; height: auto; border-radius: 1.2rem; border: 2px solid var(--ink); background: var(--card); display: block; }
       .phones figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem; }
 
